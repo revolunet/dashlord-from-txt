@@ -51,6 +51,13 @@ jobs:
           width: 1280
           scaleFactor: 0.5
 
+      - name: Lighthouse scan
+        continue-on-error: true
+        timeout-minutes: 20
+        uses: SocialGouv/dashlord-actions/lhci@v1
+        with:
+          url: "${{ matrix.sites.url }}"
+
       - uses: SocialGouv/dashlord-actions/save@v1
         with:
           url: ${{ matrix.sites.url }}
