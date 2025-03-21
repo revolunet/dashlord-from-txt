@@ -15,8 +15,6 @@ https://mes-aides.1jeune1solution.beta.gouv.fr
 https://aigle.beta.gouv.fr/
 https://aldo-carbone.ademe.fr/
 https://anais.beta.gouv.fr/
-https:&#x2F;&#x2F;kwenduparis.wixsite.com&#x2F;equipements-fronton-
-https:&#x2F;&#x2F;servicerepasmidi.wixsite.com&#x2F;my-site-1
 https://annuaire-entreprises.data.gouv.fr
 https://anotea.pole-emploi.fr
 https://api-engagement.beta.gouv.fr
@@ -156,7 +154,7 @@ https://memo.pole-emploi.fr
 https://mes-aides.francetravail.fr/
 https://mes-aides.gouv.fr
 https://mesevenementsemploi.francetravail.fr/mes-evenements-emploi/
- https://entreprise.francetravail.fr/detecteureligibiliteaides/ 
+https://entreprise.francetravail.fr/detecteureligibiliteaides/ 
 https://mesads.beta.gouv.fr/
 https://mesaidesreno.beta.gouv.fr
 https://webmail.numerique.gouv.fr
