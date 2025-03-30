@@ -3375,5 +3375,797 @@
       "lighthouse_pwa": 0.3,
       "lighthouse_pwaGrade": "E"
     }
+  },
+  {
+    "404": null,
+    "url": "https://datagir.ademe.fr/",
+    "http": null,
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": null,
+    "thirdparties": null,
+    "wappalyzer": null,
+    "zap": null,
+    "nuclei": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://datagir.ademe.fr/",
+        "finalUrl": "https://impactco2.fr/",
+        "fetchTime": "2025-03-30T00:14:39.388Z",
+        "runWarnings": [
+          "The page may not be loading as expected because your test URL (https://datagir.ademe.fr/) was redirected to https://impactco2.fr/. Try testing the second URL directly."
+        ],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "performance",
+            "score": 0.57
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "accessibility",
+            "score": 1
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "best-practices",
+            "score": 1
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "seo",
+            "score": 1
+          },
+          "pwa": {
+            "title": "PWA",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "supportedModes": [
+              "navigation"
+            ],
+            "id": "pwa",
+            "score": 0.3
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 7251,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 3331,
+                  "firstMeaningfulPaint": 3331,
+                  "largestContentfulPaint": 4653,
+                  "interactive": 7251,
+                  "speedIndex": 4741,
+                  "totalBlockingTime": 486,
+                  "maxPotentialFID": 428,
+                  "cumulativeLayoutShift": 0.008586386998494466,
+                  "cumulativeLayoutShiftMainFrame": 0.008586386998494466,
+                  "totalCumulativeLayoutShift": 0.008586386998494466,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 226370338,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 226370338,
+                  "observedFirstPaint": 1391,
+                  "observedFirstPaintTs": 227761100,
+                  "observedFirstContentfulPaint": 1391,
+                  "observedFirstContentfulPaintTs": 227761100,
+                  "observedFirstContentfulPaintAllFrames": 1391,
+                  "observedFirstContentfulPaintAllFramesTs": 227761100,
+                  "observedFirstMeaningfulPaint": 1391,
+                  "observedFirstMeaningfulPaintTs": 227761100,
+                  "observedLargestContentfulPaint": 1391,
+                  "observedLargestContentfulPaintTs": 227761100,
+                  "observedLargestContentfulPaintAllFrames": 1391,
+                  "observedLargestContentfulPaintAllFramesTs": 227761100,
+                  "observedTraceEnd": 5514,
+                  "observedTraceEndTs": 231884751,
+                  "observedLoad": 3062,
+                  "observedLoadTs": 229431923,
+                  "observedDomContentLoaded": 1390,
+                  "observedDomContentLoadedTs": 227760740,
+                  "observedCumulativeLayoutShift": 0.008586386998494466,
+                  "observedCumulativeLayoutShiftMainFrame": 0.008586386998494466,
+                  "observedTotalCumulativeLayoutShift": 0.008586386998494466,
+                  "observedFirstVisualChange": 1391,
+                  "observedFirstVisualChangeTs": 227761338,
+                  "observedLastVisualChange": 1600,
+                  "observedLastVisualChangeTs": 227970338,
+                  "observedSpeedIndex": 1425,
+                  "observedSpeedIndexTs": 227795650
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 65,
+                  "numScripts": 26,
+                  "numStylesheets": 11,
+                  "numFonts": 5,
+                  "numTasks": 1065,
+                  "numTasksOver10ms": 7,
+                  "numTasksOver25ms": 4,
+                  "numTasksOver50ms": 3,
+                  "numTasksOver100ms": 1,
+                  "numTasksOver500ms": 0,
+                  "rtt": 16.249000000000002,
+                  "throughput": 7409490.666067099,
+                  "maxRtt": 142.14000000000001,
+                  "maxServerLatency": 264.92599999999993,
+                  "totalByteWeight": 1139501,
+                  "totalTaskTime": 525.5199999999976,
+                  "mainDocumentTransferSize": 150101
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "screenshot": true,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": null,
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": null,
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {
+      "lighthouse_performance": 0.57,
+      "lighthouse_performanceGrade": "C",
+      "lighthouse_accessibility": 1,
+      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_best-practices": 1,
+      "lighthouse_best-practicesGrade": "A",
+      "lighthouse_seo": 1,
+      "lighthouse_seoGrade": "A",
+      "lighthouse_pwa": 0.3,
+      "lighthouse_pwaGrade": "E"
+    }
+  },
+  {
+    "404": null,
+    "url": "https://www.datalma.fr",
+    "http": null,
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": null,
+    "thirdparties": null,
+    "wappalyzer": null,
+    "zap": null,
+    "nuclei": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://www.datalma.fr/",
+        "finalUrl": "https://www.datalma.fr/",
+        "fetchTime": "2025-03-30T00:15:20.047Z",
+        "runWarnings": [],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "performance",
+            "score": 0.57
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "accessibility",
+            "score": 0.9
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "best-practices",
+            "score": 1
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "seo",
+            "score": 0.9
+          },
+          "pwa": {
+            "title": "PWA",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "supportedModes": [
+              "navigation"
+            ],
+            "id": "pwa",
+            "score": 0.8
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 6660,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 6311,
+                  "firstMeaningfulPaint": 6537,
+                  "largestContentfulPaint": 6913,
+                  "interactive": 6660,
+                  "speedIndex": 6311,
+                  "totalBlockingTime": 1,
+                  "maxPotentialFID": 125,
+                  "cumulativeLayoutShift": 0.009160501480102539,
+                  "cumulativeLayoutShiftMainFrame": 0.009160501480102539,
+                  "totalCumulativeLayoutShift": 0.009160501480102539,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 171739414,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 171739414,
+                  "observedFirstPaint": 974,
+                  "observedFirstPaintTs": 172713495,
+                  "observedFirstContentfulPaint": 974,
+                  "observedFirstContentfulPaintTs": 172713495,
+                  "observedFirstContentfulPaintAllFrames": 974,
+                  "observedFirstContentfulPaintAllFramesTs": 172713495,
+                  "observedFirstMeaningfulPaint": 1041,
+                  "observedFirstMeaningfulPaintTs": 172780184,
+                  "observedLargestContentfulPaint": 1041,
+                  "observedLargestContentfulPaintTs": 172780184,
+                  "observedLargestContentfulPaintAllFrames": 1041,
+                  "observedLargestContentfulPaintAllFramesTs": 172780184,
+                  "observedTraceEnd": 3627,
+                  "observedTraceEndTs": 175365964,
+                  "observedLoad": 951,
+                  "observedLoadTs": 172690442,
+                  "observedDomContentLoaded": 949,
+                  "observedDomContentLoadedTs": 172688532,
+                  "observedCumulativeLayoutShift": 0.009160501480102539,
+                  "observedCumulativeLayoutShiftMainFrame": 0.009160501480102539,
+                  "observedTotalCumulativeLayoutShift": 0.009160501480102539,
+                  "observedFirstVisualChange": 1040,
+                  "observedFirstVisualChangeTs": 172779414,
+                  "observedLastVisualChange": 1407,
+                  "observedLastVisualChangeTs": 173146414,
+                  "observedSpeedIndex": 1078,
+                  "observedSpeedIndexTs": 172817378
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 23,
+                  "numScripts": 4,
+                  "numStylesheets": 1,
+                  "numFonts": 3,
+                  "numTasks": 1029,
+                  "numTasksOver10ms": 9,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 0,
+                  "numTasksOver100ms": 0,
+                  "numTasksOver500ms": 0,
+                  "rtt": 83.116,
+                  "throughput": 25226544.665598128,
+                  "maxRtt": 83.116,
+                  "maxServerLatency": 2.138999999999996,
+                  "totalByteWeight": 1337133,
+                  "totalTaskTime": 277.8419999999984,
+                  "mainDocumentTransferSize": 1137
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "screenshot": true,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": null,
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": null,
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {
+      "lighthouse_performance": 0.57,
+      "lighthouse_performanceGrade": "C",
+      "lighthouse_accessibility": 0.9,
+      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_best-practices": 1,
+      "lighthouse_best-practicesGrade": "A",
+      "lighthouse_seo": 0.9,
+      "lighthouse_seoGrade": "A",
+      "lighthouse_pwa": 0.8,
+      "lighthouse_pwaGrade": "B"
+    }
+  },
+  {
+    "404": null,
+    "url": "https://datapass.api.gouv.fr",
+    "http": null,
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": null,
+    "thirdparties": null,
+    "wappalyzer": null,
+    "zap": null,
+    "nuclei": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://datapass.api.gouv.fr/",
+        "finalUrl": "https://datapass.api.gouv.fr/",
+        "fetchTime": "2025-03-30T00:16:00.112Z",
+        "runWarnings": [],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "performance",
+            "score": 0.57
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "accessibility",
+            "score": 0.91
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "best-practices",
+            "score": 0.92
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "seo",
+            "score": 0.77
+          },
+          "pwa": {
+            "title": "PWA",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "supportedModes": [
+              "navigation"
+            ],
+            "id": "pwa",
+            "score": 0.5
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 6036,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 1411,
+                  "firstMeaningfulPaint": 1411,
+                  "largestContentfulPaint": 6190,
+                  "interactive": 6036,
+                  "speedIndex": 2637,
+                  "totalBlockingTime": 223,
+                  "maxPotentialFID": 204,
+                  "cumulativeLayoutShift": 0.5063327094184028,
+                  "cumulativeLayoutShiftMainFrame": 0.5063327094184028,
+                  "totalCumulativeLayoutShift": 0.5063327094184028,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 151056351,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 151056351,
+                  "observedFirstPaint": 1064,
+                  "observedFirstPaintTs": 152120395,
+                  "observedFirstContentfulPaint": 1064,
+                  "observedFirstContentfulPaintTs": 152120395,
+                  "observedFirstContentfulPaintAllFrames": 1064,
+                  "observedFirstContentfulPaintAllFramesTs": 152120395,
+                  "observedFirstMeaningfulPaint": 1064,
+                  "observedFirstMeaningfulPaintTs": 152120395,
+                  "observedLargestContentfulPaint": 1530,
+                  "observedLargestContentfulPaintTs": 152586015,
+                  "observedLargestContentfulPaintAllFrames": 1530,
+                  "observedLargestContentfulPaintAllFramesTs": 152586015,
+                  "observedTraceEnd": 3950,
+                  "observedTraceEndTs": 155006626,
+                  "observedLoad": 1524,
+                  "observedLoadTs": 152579861,
+                  "observedDomContentLoaded": 1020,
+                  "observedDomContentLoadedTs": 152076390,
+                  "observedCumulativeLayoutShift": 0.5063327094184028,
+                  "observedCumulativeLayoutShiftMainFrame": 0.5063327094184028,
+                  "observedTotalCumulativeLayoutShift": 0.5063327094184028,
+                  "observedFirstVisualChange": 1064,
+                  "observedFirstVisualChangeTs": 152120351,
+                  "observedLastVisualChange": 1529,
+                  "observedLastVisualChangeTs": 152585351,
+                  "observedSpeedIndex": 1407,
+                  "observedSpeedIndexTs": 152463520
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 18,
+                  "numScripts": 2,
+                  "numStylesheets": 1,
+                  "numFonts": 3,
+                  "numTasks": 535,
+                  "numTasksOver10ms": 5,
+                  "numTasksOver25ms": 2,
+                  "numTasksOver50ms": 1,
+                  "numTasksOver100ms": 0,
+                  "numTasksOver500ms": 0,
+                  "rtt": 105.9,
+                  "throughput": 12373312.385621753,
+                  "maxRtt": 114.52499999999999,
+                  "maxServerLatency": 3.1589999999999776,
+                  "totalByteWeight": 717361,
+                  "totalTaskTime": 195.6399999999993,
+                  "mainDocumentTransferSize": 1353
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "screenshot": true,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": null,
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": null,
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {
+      "lighthouse_performance": 0.57,
+      "lighthouse_performanceGrade": "C",
+      "lighthouse_accessibility": 0.91,
+      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_best-practices": 0.92,
+      "lighthouse_best-practicesGrade": "A",
+      "lighthouse_seo": 0.77,
+      "lighthouse_seoGrade": "B",
+      "lighthouse_pwa": 0.5,
+      "lighthouse_pwaGrade": "D"
+    }
+  },
+  {
+    "404": null,
+    "url": "https://www.culture.gouv.fr/Demarches-en-ligne/Par-thematiques/Architecture/Mes-travaux-en-site-protege/A-propos",
+    "http": null,
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": null,
+    "thirdparties": null,
+    "wappalyzer": null,
+    "zap": null,
+    "nuclei": [],
+    "lhr": null,
+    "screenshot": true,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": null,
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": null,
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {}
+  },
+  {
+    "404": null,
+    "url": "https://www.demarches-simplifiees.fr",
+    "http": null,
+    "updownio": null,
+    "nmap": null,
+    "dependabot": null,
+    "codescan": null,
+    "testssl": null,
+    "thirdparties": null,
+    "wappalyzer": null,
+    "zap": null,
+    "nuclei": [],
+    "lhr": [
+      {
+        "requestedUrl": "https://www.demarches-simplifiees.fr/",
+        "finalUrl": "https://www.demarches-simplifiees.fr/",
+        "fetchTime": "2025-03-30T00:17:29.879Z",
+        "runWarnings": [],
+        "categories": {
+          "performance": {
+            "title": "Performance",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "performance",
+            "score": 0.57
+          },
+          "accessibility": {
+            "title": "Accessibility",
+            "description": "These checks highlight opportunities to [improve the accessibility of your web app](https://developers.google.com/web/fundamentals/accessibility). Only a subset of accessibility issues can be automatically detected so manual testing is also encouraged.",
+            "manualDescription": "These items address areas which an automated testing tool cannot cover. Learn more in our guide on [conducting an accessibility review](https://developers.google.com/web/fundamentals/accessibility/how-to-review).",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "accessibility",
+            "score": 1
+          },
+          "best-practices": {
+            "title": "Best Practices",
+            "supportedModes": [
+              "navigation",
+              "timespan",
+              "snapshot"
+            ],
+            "id": "best-practices",
+            "score": 1
+          },
+          "seo": {
+            "title": "SEO",
+            "description": "These checks ensure that your page is following basic search engine optimization advice. There are many additional factors Lighthouse does not score here that may affect your search ranking, including performance on [Core Web Vitals](https://web.dev/learn-web-vitals/). [Learn more](https://support.google.com/webmasters/answer/35769).",
+            "manualDescription": "Run these additional validators on your site to check additional SEO best practices.",
+            "supportedModes": [
+              "navigation",
+              "snapshot"
+            ],
+            "id": "seo",
+            "score": 0.92
+          },
+          "pwa": {
+            "title": "PWA",
+            "description": "These checks validate the aspects of a Progressive Web App. [Learn more](https://developers.google.com/web/progressive-web-apps/checklist).",
+            "manualDescription": "These checks are required by the baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist) but are not automatically checked by Lighthouse. They do not affect your score but it's important that you verify them manually.",
+            "supportedModes": [
+              "navigation"
+            ],
+            "id": "pwa",
+            "score": 0.4
+          }
+        },
+        "audits": {
+          "metrics": {
+            "id": "metrics",
+            "title": "Metrics",
+            "description": "Collects all available metrics.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "numericValue": 7643,
+            "numericUnit": "millisecond",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "firstContentfulPaint": 3863,
+                  "firstMeaningfulPaint": 3863,
+                  "largestContentfulPaint": 7271,
+                  "interactive": 7643,
+                  "speedIndex": 6201,
+                  "totalBlockingTime": 69,
+                  "maxPotentialFID": 106,
+                  "cumulativeLayoutShift": 0.0018292950524224174,
+                  "cumulativeLayoutShiftMainFrame": 0.0018292950524224174,
+                  "totalCumulativeLayoutShift": 0.0018292950524224174,
+                  "observedTimeOrigin": 0,
+                  "observedTimeOriginTs": 107324761,
+                  "observedNavigationStart": 0,
+                  "observedNavigationStartTs": 107324761,
+                  "observedFirstPaint": 1302,
+                  "observedFirstPaintTs": 108626407,
+                  "observedFirstContentfulPaint": 1302,
+                  "observedFirstContentfulPaintTs": 108626407,
+                  "observedFirstContentfulPaintAllFrames": 1302,
+                  "observedFirstContentfulPaintAllFramesTs": 108626407,
+                  "observedFirstMeaningfulPaint": 2011,
+                  "observedFirstMeaningfulPaintTs": 109335853,
+                  "observedLargestContentfulPaint": 2394,
+                  "observedLargestContentfulPaintTs": 109718274,
+                  "observedLargestContentfulPaintAllFrames": 2394,
+                  "observedLargestContentfulPaintAllFramesTs": 109718274,
+                  "observedTraceEnd": 5061,
+                  "observedTraceEndTs": 112385678,
+                  "observedLoad": 2451,
+                  "observedLoadTs": 109775482,
+                  "observedDomContentLoaded": 2448,
+                  "observedDomContentLoadedTs": 109772666,
+                  "observedCumulativeLayoutShift": 0.0018292950524224174,
+                  "observedCumulativeLayoutShiftMainFrame": 0.0018292950524224174,
+                  "observedTotalCumulativeLayoutShift": 0.0018292950524224174,
+                  "observedFirstVisualChange": 1302,
+                  "observedFirstVisualChangeTs": 108626761,
+                  "observedLastVisualChange": 2393,
+                  "observedLastVisualChangeTs": 109717761,
+                  "observedSpeedIndex": 2155,
+                  "observedSpeedIndexTs": 109479458
+                },
+                {
+                  "lcpInvalidated": false
+                }
+              ]
+            }
+          },
+          "diagnostics": {
+            "id": "diagnostics",
+            "title": "Diagnostics",
+            "description": "Collection of useful page vitals.",
+            "score": null,
+            "scoreDisplayMode": "informative",
+            "details": {
+              "type": "debugdata",
+              "items": [
+                {
+                  "numRequests": 37,
+                  "numScripts": 10,
+                  "numStylesheets": 2,
+                  "numFonts": 5,
+                  "numTasks": 1283,
+                  "numTasksOver10ms": 5,
+                  "numTasksOver25ms": 2,
+                  "numTasksOver50ms": 1,
+                  "numTasksOver100ms": 0,
+                  "numTasksOver500ms": 0,
+                  "rtt": 1.8120000000000003,
+                  "throughput": 4606545.206532724,
+                  "maxRtt": 150.23700000000002,
+                  "maxServerLatency": 599.2450000000001,
+                  "totalByteWeight": 1087413,
+                  "totalTaskTime": 261.9699999999983,
+                  "mainDocumentTransferSize": 9114
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "screenshot": true,
+    "stats": null,
+    "github_repository": null,
+    "budget_page": null,
+    "declaration-a11y": null,
+    "declaration-rgpd": null,
+    "betagouv": null,
+    "ecoindex": null,
+    "sonarcloud": null,
+    "dsfr": null,
+    "summary": {
+      "lighthouse_performance": 0.57,
+      "lighthouse_performanceGrade": "C",
+      "lighthouse_accessibility": 1,
+      "lighthouse_accessibilityGrade": "A",
+      "lighthouse_best-practices": 1,
+      "lighthouse_best-practicesGrade": "A",
+      "lighthouse_seo": 0.92,
+      "lighthouse_seoGrade": "A",
+      "lighthouse_pwa": 0.4,
+      "lighthouse_pwaGrade": "D"
+    }
   }
 ]
